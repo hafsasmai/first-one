@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Geist+Mono:wght@100..900&display=swap');
+body{
+    background: rgb(211,174,238);
+    background: linear-gradient(90deg, rgba(211,174,238,0.9754026610644257) 0%, rgba(148,218,233,1) 100%);
+}
+#sty-form{
+    width: 300px;
+    margin: auto;
+    border: 2px solid rgba(176, 160, 173, 0.728);
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    
+}
+.sty-title{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+form input{
+    height: 30px;
+    border-radius: 3px solid rgba(3, 3, 3, 0.151);
+    outline: none;
+    
+}
+#signup-btn{
+    border: none;
+    border-radius: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+#signup-btn:hover{
+    background-color:#94dae9;
+    color: white;
+}
+.sty-date{
+    cursor: pointer;
+}
+#signin-btn{
+    border: none;
+    border-radius: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+    padding: 10px;
+    float: right;
+    
+}
+#signin-btn:hover{
+    background-color:  #d3aeee;
+    color: white;
+}

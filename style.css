@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f7eaf1;
+    padding: 10px;
+    box-shadow: 1px 2px #a00f5f;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:  #a00f5f;
+    font-family: "Concert One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: 0.4s;
+
+}
+ul{
+    padding-top: 12px;
+}
+#logo{
+    margin-right: auto;
+
+}
+a:hover{
+    color:  #dd2c8d;
+}
